@@ -1,0 +1,27 @@
+Necessario instalacao das seguintes bibliotecas: 
+
+Pulp
+Para instalar a biblioteca PuLP no Python, você pode usar o gerenciador de pacotes pip. Siga os passos abaixo:
+Abra o terminal ou o prompt de comando.
+
+Execute o seguinte comando:
+pip install pulp
+Após a instalação, você pode verificar se o PuLP foi instalado corretamente executando:
+python -c "import pulp; print(pulp.__version__)"
+Isso exibirá a versão do PuLP instalada, confirmando que a instalação foi bem-sucedida.
+
+matplotlib
+pip install matplotlib
+
+Instale o Streamlit:
+
+streamlit
+pip install streamlit
+Atualize o código para usar Streamlit:
+Editado
+O código foi adaptado para funcionar com o Streamlit, criando uma interface web onde o usuário pode inserir os dados e visualizar os resultados diretamente no navegador, incluindo gráficos interativos.
+Como usar:
+Salve o código em um arquivo, por exemplo, app.py.
+
+streamlit run nome.py
+Acesse o endereço exibido (geralmente http://localhost:8501) no navegador.
